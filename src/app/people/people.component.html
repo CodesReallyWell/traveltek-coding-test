@@ -1,19 +1,11 @@
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-12">
-      <ngb-accordion>
-        <ngb-panel>
-         <ng-template ngbPanelTitle>
-           <span>
-             Eye Color
-           </span>
-         </ng-template>
-          <ng-template ngbPanelContent>
-            <app-eye-color [people]="people">
-            </app-eye-color>
-          </ng-template>
-        </ngb-panel>
-      </ngb-accordion>
+<div class="row">
+  <div class="col-sm-12" style="text-align: center">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Green Eyes</h5>
+        <h6 class="card-subtitle mb-2 text-muted">The number of people with greed eyes</h6>
+        <div class="card-text"><app-eye-color [people]="people"></app-eye-color></div>
+      </div>
     </div>
   </div>
 </div>
