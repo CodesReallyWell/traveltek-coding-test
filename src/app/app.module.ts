@@ -6,11 +6,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { PeopleComponent } from './people/people.component';
 import {PeopleService} from './people.service';
+import { EyeColorComponent } from './eye-color/eye-color.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PeopleComponent
+    PeopleComponent,
+    EyeColorComponent
   ],
   // telling angular we are using these
   imports: [

@@ -1,3 +1,19 @@
-<p>
-  people works!
-</p>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12">
+      <ngb-accordion>
+        <ngb-panel>
+         <ng-template ngbPanelTitle>
+           <span>
+             Eye Color
+           </span>
+         </ng-template>
+          <ng-template ngbPanelContent>
+            <app-eye-color [people]="people">
+            </app-eye-color>
+          </ng-template>
+        </ngb-panel>
+      </ngb-accordion>
+    </div>
+  </div>
+</div>
