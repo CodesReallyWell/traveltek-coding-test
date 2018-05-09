@@ -1,0 +1,17 @@
+<h5 class="card-title common-surnames-title">
+  Top Ten Surnames
+</h5>
+<table class="table table-striped top-ten-table">
+  <thead>
+      <td><b>#</b></td>
+      <td><b>Surname</b></td>
+      <td><b>Occurrences</b></td>
+  </thead>
+  <tbody>
+  <tr *ngFor="let surnameCount of top10Surnames; index as i">
+    <td><b>{{i + 1}}</b></td>
+    <td>{{surnameCount.surname}}</td>
+    <td>{{surnameCount.count}}</td>
+  </tr>
+  </tbody>
+</table>

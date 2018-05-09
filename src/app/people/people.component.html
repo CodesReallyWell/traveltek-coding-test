@@ -2,9 +2,10 @@
   <div class="col-sm-12" style="text-align: center">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Green Eyes</h5>
-        <h6 class="card-subtitle mb-2 text-muted">The number of people with greed eyes</h6>
-        <div class="card-text"><app-eye-color [people]="people"></app-eye-color></div>
+        <app-eye-color [people]="people"></app-eye-color>
+        <app-interesting-statistic [people] = "people"></app-interesting-statistic>
+        <app-closest-eiffel-tower [people] = "people"></app-closest-eiffel-tower>
+        <app-common-surnames [people] = "people"></app-common-surnames>
       </div>
     </div>
   </div>

@@ -6,12 +6,20 @@ import { AppComponent } from './app.component';
 import { PeopleComponent } from './people/people.component';
 import {PeopleService} from './people.service';
 import { EyeColorComponent } from './eye-color/eye-color.component';
+import { InterestingStatisticComponent } from './interesting-statistic/interesting-statistic.component';
+import { CommonSurnamesComponent } from './common-surnames/common-surnames.component';
+import { ClosestEiffelTowerComponent } from './closest-eiffel-tower/closest-eiffel-tower.component';
+
+import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
     AppComponent,
     PeopleComponent,
-    EyeColorComponent
+    EyeColorComponent,
+    InterestingStatisticComponent,
+    CommonSurnamesComponent,
+    ClosestEiffelTowerComponent
   ],
   // telling angular we are using these
   imports: [
