@@ -10,8 +10,6 @@ import { InterestingStatisticComponent } from './interesting-statistic/interesti
 import { CommonSurnamesComponent } from './common-surnames/common-surnames.component';
 import { ClosestEiffelTowerComponent } from './closest-eiffel-tower/closest-eiffel-tower.component';
 
-import { AgmCoreModule } from '@agm/core';
-
 @NgModule({
   declarations: [
     AppComponent,
